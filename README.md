@@ -27,8 +27,9 @@ UNET is a U-shaped encoder-decoder network architecture, which consists of four 
 
 **Training**
 
-The model is trained for 100 epochs. Using Binary crossentropy as loss function achiving aroung 90% accuracy. Learning rate used 0.001(default for Adam).
-Then model is trained further using dice coefficient as loss function achieving accuracy of 97%. And Mean IOU of around 91. Learning rate used here is 0.0001.
+The model is trained for 100 epochs. Using Binary crossentropy as loss function achiving aroung 90% accuracy. Used Learning rate used 0.001(default for Adam).
+
+Then model is trained further using dice coefficient as loss function achieving accuracy of 97%. And Mean IOU of around 91. Used Learning rate used here is 0.0001.
 
 
 **How to use**
