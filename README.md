@@ -44,3 +44,11 @@ Got good results using trained model.
 
 ![Evaluation](https://github.com/GabruAru/Medical-Image-Segmentation/assets/84130891/79ba60c4-641d-462f-b115-fd44ea082104)
 ![Evaluation1](https://github.com/GabruAru/Medical-Image-Segmentation/assets/84130891/ffe6bf09-819b-4e47-aa5f-06e5503ffc71)
+
+**Evalutaion metrics**
+
+Mean IoU = 0.926379
+BinaryAccuracy = 0.983
+Precision Score = 0.953
+Recall Score = 0.938
+F1 Score = 0.945
