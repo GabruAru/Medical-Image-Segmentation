@@ -26,8 +26,8 @@ UNET is a U-shaped encoder-decoder network architecture, which consists of four 
 
 
 **Training**
-The model is trained for 100 epochs. Using Binary crossentropy as loss function achiving aroung 90% accuracy. Learning rate used 0.001(default for Adam).
 
+The model is trained for 100 epochs. Using Binary crossentropy as loss function achiving aroung 90% accuracy. Learning rate used 0.001(default for Adam).
 Then model is trained further using dice coefficient as loss function achieving accuracy of 97%. And Mean IOU of around 91. Learning rate used here is 0.0001.
 
 
@@ -45,10 +45,15 @@ Got good results using trained model.
 ![Evaluation](https://github.com/GabruAru/Medical-Image-Segmentation/assets/84130891/79ba60c4-641d-462f-b115-fd44ea082104)
 ![Evaluation1](https://github.com/GabruAru/Medical-Image-Segmentation/assets/84130891/ffe6bf09-819b-4e47-aa5f-06e5503ffc71)
 
+
 **Evalutaion metrics**
 
 Mean IoU = 0.926379
+
 BinaryAccuracy = 0.983
+
 Precision Score = 0.953
+
 Recall Score = 0.938
+
 F1 Score = 0.945
